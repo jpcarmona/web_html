@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>MS INFO</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="../css/style.css" />
+		<link rel="icon" href="../imagenes/favicon.gif" type="image/gif" />					
+	</head>
+    
+	<body>
+                       
+            <!-- Container 1 -->
+			
+			<div class="regis" id="divp1">
+
+				<!-- Título página -->
+                
+                <div id="divp11">
+                    
+					<h1><a href="../index.html">MS INFO</a></h1>
+                    
+				</div>
+				
+                <!-- Submenú -->
+			
+			<div id="divp12">
+
+				<!-- Lateral -->
+
+			     <div id="divp23">
+                     
+				    <!-- Iniciar sesión -->
+
+				    <div id="divp231">
+                        
+					   <h3>INICIAR SESIÓN</h3>
+					
+					   <form id="form1" method="post" action="http://dit.gonzalonazareno.org/iesgn/resultado.php">
+								<input id="user1" required="required" placeholder="Email" autocomplete="off" size="25" maxlength="25" type="text" name="email"><br/>
+								<input id="pass1" required="required" placeholder="Contraseña" autocomplete="off" size="25" maxlength="25" type="text" name="contraseña"><br/>
+								<input id="in1" type="submit" value="ENTRAR" >
+					   </form>
+                        
+				    </div>
+                     
+                     <!-- Pass olvidada -->
+                     
+				     <div id="divp232">
+                         
+					   <a href="#">He olvidado mi contraseña</a>
+                         
+				     </div>
+                     
+				     <!-- Registrarse -->
+                     
+				     <div id="divp233">
+				     
+                        <a href="registrarse.html">Registrarse</a>
+				
+                     </div>
+                     
+                     <!-- Copyright -->
+
+				<div id="divp123">
+						<p>© Copyright 2016, Juan Pedro Carmona Romero<p>
+						<p>MSI Corporation<p><br/> 
+                     <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="#" src="../imagenes/ccommons.png"></a> 
+					</div>
+                         
+                     </div>	
+
+                
+			 </div>
+				
+			</div>
+                
+            <!-- Container 2-->
+            
+            <div class="regis" id="divp2">
+                
+                <!-- Menú páginas -->
+
+				<div id="divp21">
+					
+                    <div >
+						<a href="tienda.html" >Tienda</a>
+                     </div>
+                    <div >
+						<a href="servicios.html">Servicios</a>
+                    </div>
+                    <div > 
+						<a href="cuenta.html" >Mi&nbsp;Cuenta</a>
+					</div>    
+                        
+				</div>
+                
+		         <!-- Contenido principal -->
+
+			     <div id="divp24">
+                     
+                  <div>                     
+					                           
+                       <form action="http://dit.gonzalonazareno.org/iesgn/resultado.php" method="post">
+  			<fieldset class="fiel1">
+                
+				<legend>Datos Personales</legend>
+					<label for="nombre">Nombre:</label>
+  						<input size="35" maxlength="50" id="nombre" type="text" name="nombre"><br/><br/>
+                
+                
+					<label for="apellidos">Apellidos:</label>
+  						<input size="35" maxlength="60" id="apellidos" type="text" name="apellidos"><br/><br/>
+                
+                
+					<label for="año">Año de nacimiento:</label>
+  						<input id="año" type="date" name="año">
+					<br/><br/>
+                
+                
+					<label>Sexo:</label><br/>
+  						<input name="sexo" type="radio" value="hombre" />Hombre<br/>
+						<input name="sexo" type="radio" value="mujer" checked="checked"/>Mujer<br/><br/>
+                
+                    <label>País:</label>
+  						<select name="pais">
+							<option>España</option>
+							<option>Portugal</option>
+							<option>Andorra</option>
+                            <option>Francia</option>
+							<option>México</option>
+                            <option>Argentina</option>
+						</select><br/><br/>
+                
+			</fieldset>
+                           
+			<fieldset class="fiel2">
+                
+				<legend>Otros Datos</legend>	
+                					             
+					<label>Contratación:</label>
+  						<input name="contpro" type="checkbox"  />Productos
+						<input name="contserv" type="checkbox" checked="checked"/>Servicios<br/><br/>
+                
+                <label for="descripcion">Descripción:</label><br/>
+  						<textarea id="descripcion" name="descripcion" rows="10" cols="45"></textarea><br/>
+                					
+			</fieldset>
+                           
+			<fieldset class="fiel3">
+                
+				<legend>Cuenta</legend>
+										
+					<label for="email">Email:</label>
+  						<input required="required" size="30" maxlength="50" id="email" type="email" name="email"><br/><br/>
+                
+					<label for="pass">Contraseña:</label>
+  						<input required="required" size="35" maxlength="60" id="pass" type="password" name="pass"><br/><br/>
+                
+                    <label for="pass2">Repetir Contraseña:</label>
+  						<input required="required" size="35" maxlength="60" id="pass2" type="password" name="pass2"><br/><br/>
+                
+			</fieldset>
+				<input type="submit" value="Registrarse">
+				<input type="reset" value="Rellenar en Blanco">
+				
+		  </form>
+                                         
+         </div>     
+                
+        </div>
+            
+     </div>
+
+   </body>
+    
+</html>

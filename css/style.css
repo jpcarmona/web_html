@@ -1,0 +1,791 @@
+
+*{
+    font-family: sans-serif;}
+
+/* Container 1 */
+
+#divp1{
+    z-index:5;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity:0.95;
+	box-shadow: 0 0 0.4em 0 rgba(0, 0, 0, 0.5);
+    }
+
+    /* Título página */
+
+    #divp11{
+        position: absolute;
+        width: 100%;
+        height: 3em;
+        text-align: center;
+        background: white;
+        }
+
+    .registrarse #divp11{ 
+        position: absolute;
+        width: 100%;
+        height: 3em;
+        text-align: center;
+        background: white;}
+        
+        #divp11 h1 {
+            position: absolute;
+            margin: 7.25px 0 ;
+            width: 100%;
+	       	height:100%;
+            text-shadow: -1.5px -1.5px 0px #629DD1;
+            }
+
+        .tienda #divp11 h1{
+                text-shadow: -1.5px -1.5px 0px #FF9537;
+                }
+
+        .servicios #divp11 h1{
+                text-shadow: -1.5px -1.5px 0px #43D16C;
+                }
+
+        .cuenta #divp11 h1{
+                text-shadow: -1.5px -1.5px 0px #FC5252;
+                }
+
+            #divp11 h1 a {
+	           color: gray;
+	           text-decoration: none;
+                }
+
+            #divp11 h1 a:hover {
+	           color: #629DD1;
+	           }
+
+            .tienda #divp11 h1 a:hover {
+	           color: #FF9537;
+	           }
+
+            .servicios #divp11 h1 a:hover {
+	           color: #43D16C;
+	           }
+
+            .cuenta #divp11 h1 a:hover {
+	           color: #FC5252;
+	           }
+
+    /* Submenú */
+
+    #divp12{
+        position: relative;
+        z-index:4;
+        height: 95%;
+        background: gray;
+        opacity: 0.95;
+        top: 3em;
+        text-align:center;
+       	}
+
+        /* Búsqueda */
+
+        #divp121 form input{
+            position:relative;
+            margin-top:5%;            
+            width: 80%;
+            height: 34px;
+            border: #E1E1E1 3px solid;
+            border-radius: 23px;
+            background-color: #ebeced;
+            text-align:center;
+            }
+
+        /* SubMenú secundario */
+
+        #divp122 {
+            margin-top: 35px;
+            width: 80%;
+            left: 10%;
+            height: 50%;
+            position: relative;}
+
+            #divp122 div {
+                position:relative;
+                margin-top: 20px;                
+                text-align: center;
+                border-radius: 10px;
+                padding: 10px;
+                background-color: #629DD1;
+                box-shadow: -2px -2px 0px 1px white;
+                }        
+
+            .tienda #divp122 div {                
+                background-color: #FF9537;               
+                }
+
+            .servicios #divp122 div {                
+                background-color: #43D16C;               
+                }
+
+            .cuenta #divp122 div {                
+                background-color: #FC5252;               
+                }
+
+                #divp122 a{ 
+                    letter-spacing: 1px;            
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-size:20px}
+        
+                    #divp122 a:hover{
+                        color: gray;
+                        }
+
+        /* Copyright */
+
+        #divp123{
+            background-color:#629DD1 ;
+            bottom:0;
+            width:100%;
+            position: absolute;
+            color:white;
+            }
+
+        .tienda #divp123{
+            background-color:#FF9537 ;
+            }
+
+        .servicios #divp123{
+            background-color:#43D16C ;
+            }
+
+        .cuenta #divp123{
+            background-color:#FC5252 ;
+            }
+
+        #divp123 img:hover{
+            opacity: 0.6;
+            border: 2px solid white;
+            }
+
+
+/* Container 2 */
+
+
+
+#divp2{
+    position: absolute;   
+    width: 75%;
+    bottom: 0;
+    right: 0;    
+    height: 100%;    
+    float: right;
+}
+
+    /* Menú páginas */
+
+    #divp21{
+        z-index: 4;
+        position: fixed;
+        float: right;
+        width: 60%;
+        top: 0;
+        right: 15%;
+        height: 3em;
+        background: gray;
+        box-shadow: 0 0 0.4em 0 rgba(0, 0, 0, 0.5);
+        opacity:0.95;
+        }
+        
+        #divp21 div {            
+            position: relative;
+            top: 15px;
+            display: inline;
+            text-align: center;
+            margin-left: 6%;
+            margin-right: 5%;
+            width: 20%;
+            float: left ;}        
+
+
+            #divp21 a{               
+                letter-spacing: 1.5px;            
+                border-radius: 10px;
+                padding: 10px;
+                background-color: #629DD1;
+                color: #ffffff;
+                text-decoration: none;
+                font-size:25px;
+                box-shadow: 2px -2px 0px 1px white;                
+                }
+
+             .tienda #divp21 a{
+                background-color: #FF9537;                
+                }
+
+            .servicios #divp21 a{
+                background-color: #43D16C;                
+                }
+
+            .cuenta #divp21 a{
+                background-color: #FC5252;                
+                }
+        
+            #divp21 a:hover{
+                color: gray;                
+                }
+
+    /* Cabecera principal */
+
+    #divp22 {
+        float: left;
+        position: relative;
+        z-index: 2;
+        width: 78.7%;
+	    height:35%;
+        margin-top:3em;
+        background:url("../imagenes/principal.jpg");
+	    background-size: 40%;
+	    background-position: center center;
+	    background-repeat: no-repeat;
+        box-shadow: 0 0 0.4em 0 rgba(0, 0, 0, 0.5);
+        }
+
+     .tienda #divp22 {
+        float: left;
+        position: relative;
+        z-index: 2;
+        width: 78.7%;
+	    height:40%;
+        margin-top:3em;        
+        background:none;
+        box-shadow: 0 0 0.4em 0 rgba(0, 0, 0, 0.5);
+        }
+    
+     .tienda #divp22 div{
+         position: relative;
+         display: inline;         
+         
+        }
+
+        .tienda #divp22 div img{
+         position: absolute;
+         padding: 10px ;
+         border-radius: 30px 80px 80px 80px;
+         background-color:#FF9537;
+         float: left;
+         margin:  2em 6em;
+        }
+       
+        .tienda #divp22 div h2{
+         position: relative;
+            float: right;
+            margin: 6em 8em;
+                        }
+     
+    #divp22 h2{
+        color:#629DD1;
+        text-align: center;        
+        }
+
+    .tienda #divp22 h2{
+        color:#FF9537;
+        text-align: center;        
+        }
+
+    .servicios #divp22 h2{
+        color:#43D16C;
+        text-align: center;        
+        }
+
+    .cuenta #divp22 h2{
+        color:#FC5252;        
+        }
+
+    #divp22 h3{
+        text-align: center;
+        color:gray;
+        }
+
+        /* Cabecera 1 */
+
+        #divp221 {
+            position: absolute;
+            width: 30%;
+            top: 15%;
+            }
+        
+        /* Cabecera 2 */
+
+        #divp222 {
+            position: relative;
+            float: right;
+            width: 30%;
+            top: 15%;
+            }            
+
+    /* Lateral */
+
+    #divp23 {
+        z-index: 5;
+	    right: 0;
+        position: fixed;
+        float: right;
+        width: 16%;        
+        height:100%;
+        box-shadow: 0 0 0.4em 0 rgba(0, 0, 0, 0.5);
+        text-align: center;
+        background-color: #629DD1;
+        }
+
+     .tienda #divp23 {
+        background-color: #FF9537;
+        }
+
+     .servicios #divp23 {
+        background-color: #43D16C;
+        }
+
+     .cuenta #divp23 {
+        background-color: #FC5252;
+        }
+
+        /* Iniciar sesión */
+    
+        #divp231 h3{
+            letter-spacing: 1.5px;
+            color: white;            
+            }
+        
+        #divp231 #form1 input{
+            margin-bottom: 1em;            	
+            width: 80%;
+            height: 30px;
+            border: #E1E1E1 2px solid;
+            border-radius: 23px;
+            background-color: #ebeced;
+            text-align:center;         
+            }
+        #divp231 #form1 #in1{
+            margin-bottom:1em;
+            height: 50px;
+            width: 60%;
+            border: gray 2px solid;
+            color: #629DD1;
+            text-decoration: none;
+            font-size:15px;
+            }
+
+        .tienda #divp231 #form1 #in1{
+            color: #FF9537;
+            }
+
+        .servicios #divp231 #form1 #in1{
+            color: #43D16C;
+            }
+
+        .cuenta #divp231 #form1 #in1{
+            color: #FC5252;
+            }
+    
+        #divp231 #form1 #in1:hover{
+            background-color: #629DD1;
+            color: #ebeced;}
+
+        .tienda #divp231 #form1 #in1:hover{
+            background-color: #FF9537;}
+
+        .servicios #divp231 #form1 #in1:hover{
+            background-color: #43D16C;}
+
+        .cuenta #divp231 #form1 #in1:hover{
+            background-color: #FC5252;}
+
+        /* Pass olvidada */
+
+        #divp232 a{
+            position: relative;
+            top: -10px;
+            color: white;
+            font-size: 10px;
+            }
+
+        #divp232 a:hover{
+            color: gray;
+            }
+
+        /* Registrarse */
+
+        #divp233 a{
+            position: relative;
+            bottom: -1em;
+            letter-spacing: 1px;            
+            border-radius: 10px;
+            padding: 8px;
+            background-color: gray;
+            color: white;
+            text-decoration: none;
+            font-size:20px;
+            border: #ebeced 0px solid;
+            box-shadow: 2px -2px 0px 1px white;
+            }
+
+        #divp233 a:hover{            
+            color: #629DD1;
+            }
+
+        .tienda #divp233 a:hover{            
+            color: #FF9537;
+            }
+
+        .servicios #divp233 a:hover{            
+            color: #43D16C;
+            }
+
+        .cuenta #divp233 a:hover{            
+            color: #FC5252;
+            }
+
+        /* Elementos adicionales lateral */
+
+        #divp234 {
+            position: absolute;
+            height: 60.5%;
+            width: 100%;
+            bottom: 0;
+            background-color: gray;
+            
+            }
+    
+            #divp234 h3{
+                 margin-top: 10%;                 
+                 color:#629DD1;
+                    }
+
+            .tienda #divp234 h3{                 
+                 color:#FF9537;
+                    }
+
+            .servicios #divp234 h3{                 
+                 color:#43D16C;
+                    }
+
+            .cuenta #divp234 h3{                 
+                 color:#FC5252;
+                    }
+
+            #divp234 img{
+                margin-bottom: 15%;
+                width: 80%;
+                height:30%;
+                    }
+
+            #divp234 img:hover{
+                 opacity:0.6;
+                 border: 2px solid #629DD1;
+                    }
+
+            .tienda #divp234 img:hover{
+                 border: 2px solid #FF9537;
+                    }
+
+            .servicios #divp234 img:hover{
+                 border: 2px solid #43D16C;
+                    }
+
+            .cuenta #divp234 img:hover{
+                 border: 2px solid #FC5252;
+                    }
+        
+
+    /* Contenido principal */
+
+     #divp24 {
+        position: absolute;
+        z-index: 1;
+        width: 78.7%;
+	    height:100%;
+        margin-top:20em;
+        }
+
+    .tienda #divp24 {
+        position: absolute;
+        z-index: 1;
+        width: 78.7%;
+	    height:100%;
+        margin-top:25%;
+        }
+    
+        .tienda #divp24 div img{
+                width:200px;
+                height: 200px;
+                }
+        
+        .tienda #divp24 div a{
+                position: relative;
+                width: 2em             
+                }
+
+        .tienda #divp24 div img:hover{
+                opacity:0.6;
+                 border: 2px solid #FF9537;
+                }
+
+         #divp24 h2 , #divp24 h3{
+            text-align:center;
+            color: #629DD1;}        
+
+        .tienda #divp24 h2 , .tienda #divp24 h3{
+            color: #FF9537;}        
+
+        .servicios #divp24 h2 , .servicios #divp24 h3{
+            color: #43D16C;}
+
+        .servicios #divp24 ul > li{
+            margin: 5% 10%;
+            color: gray;
+            font-size: 20px ;
+            margin-bottom: 10px}
+
+        .servicios #divp24 ol li{
+            margin: 1% 15%;
+            text-align: justify;
+            color: gray;}
+
+        .cuenta #divp24 h2 , .cuenta #divp24 h3{
+            color: #FC5252;}
+
+         #divp24 p {
+            text-align: justify;
+            margin: 1% 10%;
+            color: #888;
+            text-decoration: none;}
+        
+         #divp24 img{
+             display:block;
+             margin:0 auto 0 auto;
+            }
+
+          #divp24 iframe{
+             position:relative;
+             width: 100%;
+             right: 10%;
+             left: 0;
+            }
+          
+          #divp24 div{
+                position:relative;
+                ;
+                }
+    
+          #divp24 #divp245 h3,#divp24 #divp245 p{
+                text-align: left;
+                margin-left:12%;
+                }
+
+              #divp24 div div{
+                  vertical-align: middle;
+                  display: inline-block;
+                  position:relative;
+                  width: 45%;
+                  height: 130%;
+                  margin-left:3%;
+                  margin-top:3%;
+                    }
+
+            .tienda #divp24 div div {
+                    position: relative;
+                  display: inline-block;
+                    width: 100%;
+                    
+                    }
+
+            .tienda #divp24 div div div{
+                  vertical-align: middle;
+                  display: inline-block;
+                  position:relative;                  
+                  width: 25%;                  
+                  margin-left:15%;
+                  margin-top:3%;
+                    }
+
+                .tienda #divp24 > div{
+                    border-bottom: 4px solid #FF9537;
+                    }
+
+                .servicios #divp24 div{
+                    border-bottom: 4px solid #43D16C;
+                    }
+
+
+    /* Pie de página */
+
+      #divp25 {
+        position: relative;       
+        width: 100% ;          
+        margin-top:8% ;
+        bottom:0 ;
+	    z-index: 4 ;        
+        box-shadow: 0 0 0.4em 0 rgba(0, 0, 0, 0.5);        
+        background-color: #629DD1;
+	    }
+
+        .tienda #divp25 {        
+            background-color: #FF9537;
+	    }
+
+        .servicios #divp25 {        
+            background-color: #43D16C;
+	    }
+
+        .cuenta #divp25 {        
+            background-color: #FC5252;
+	    }
+	
+          #divp25 h2 {
+                text-align:center;
+                color: white;
+                }                      
+
+            #divp25 div{
+                  vertical-align: middle ;
+                  display: inline-block ;
+                  position:relative ;
+                  width: 25% !important;
+                  height: 25% ;
+                  margin-left:6%!important;
+                  margin-top:0% !important;
+                    }
+
+             #divp25 img{
+                width: 50% ;            
+                    }
+
+            #divp25 img:hover{                
+                 opacity:0.6;
+                 border: 2px solid white;            
+                    }
+
+ /* regitro */
+
+    .regis #divp12 #divp23 {
+                position: absolute;
+                width: 100%;
+                 height: 100%;}
+        
+        .regis #divp12 #divp23 #divp231{
+                position: relative;
+                width: 100%;
+                height: 30%;
+                }
+
+        .regis #divp12 #divp23 #divp232{
+                position: relative;
+                width: 100%;
+                height: 5%;
+                }
+
+        .regis #divp12 #divp23 #divp233{
+                position: relative;
+                width: 100%;
+                height: 10%;
+                }            
+
+        .regis #divp24 {
+                position: absolute;
+                height: 80%;
+                width: 550px;
+                margin:5em 15%;
+                }
+        
+
+             .regis #divp24 form{               
+                
+                 background-color:#629DD1;
+                 padding: 10px;
+                 border-radius: 50px 25px;                 
+                 box-shadow: 3px -3px 0px 3px gray;
+                 font-size: 20px;
+                 color: white;
+                }
+
+                    .regis #divp24 form fieldset{                
+                            padding: 5px;
+                            border-radius: 25px;                
+                            border-color: gray;
+                            background-color:#FF9537;
+                            }                        
+
+                            .regis #divp24 form fieldset legend{                
+                            background-color:gray;
+                            padding: 5px;
+                            border-radius: 25px;
+                            text-align: center;
+                            }
+
+                            .regis #divp24 form input, .regis #divp24 form select, .regis #divp24 form textarea{
+                                        padding: 3px ;
+                                        border: #E1E1E1 2px solid;
+                                        border-radius: 23px;
+                                        background-color: #ebeced;                                        
+                                                }
+
+   /* Mi Cuenta */                         
+
+        .cuenta table { 
+            padding: 20px ;
+            margin: 0% 10% ;
+            width: 80% ;
+            border: 2px solid gray;
+            border-radius: 25px;
+            box-shadow: 3px -3px 0px 3px #FC5252;
+            }        
+
+        .cuenta table tr th{
+            background-color: #FC5252;
+            padding: 10px;            
+            border: 2px solid #FC5252;
+            border-radius: 25px;
+            color: white;            
+            }
+
+        .cuenta table tr td{
+            text-align: center;
+            padding: 10px;            
+            border: 2px solid gray;
+            border-radius: 25px;
+            color: black;            
+            }
+
+    /* Responsive mapa */            
+
+@media screen and (max-width: 1200px)
+{
+.tienda #divp22 {
+        float: left;
+        position: relative;
+        z-index: 2;
+        width: 78.7%;
+	    height:380px;
+        margin-top:3em;        
+        background:none;
+        box-shadow: 0 0 0.4em 0 rgba(0, 0, 0, 0.5);
+        }
+        
+
+        .tienda #divp22 div img{
+         position: relative;         
+         margin:  1em 1em;
+        }
+
+
+        .tienda #divp22 div h2{
+         position: relative;
+            margin-top: 0;            
+                        }
+    .tienda #divp24 {        
+        margin-top:50%;
+        }
+    
+}
+
+
+
